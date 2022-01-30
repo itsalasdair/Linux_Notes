@@ -1,7 +1,7 @@
 # Upgrading openSUSE 15.2 to 15.3
 
 ### Refresh repositories and upgrade
-`zypper ref`
+`zypper ref`\
 `zypper up`
 
 ### Check upgrade repo and verify
