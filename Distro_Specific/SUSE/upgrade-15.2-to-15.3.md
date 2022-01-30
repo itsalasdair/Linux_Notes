@@ -17,3 +17,8 @@ Verify we can get the 15.3 repo
 `zypper --releasever=15.3 dup`
 
 and `reboot` once done
+
+### Refresh repos and check/apply updates
+`zypper ref`\
+`zypper patch`\
+`zypper up`
