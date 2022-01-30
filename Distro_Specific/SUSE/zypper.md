@@ -6,4 +6,4 @@
 `zypper lp --cve=CVE-####-####`
 
 ### Install Patches for CVE
-`zypper patch --cve=CVE-####-####
+`zypper patch --cve=CVE-####-####`
