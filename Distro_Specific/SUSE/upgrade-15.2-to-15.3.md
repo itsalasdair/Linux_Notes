@@ -11,7 +11,7 @@ Verify we can get the 15.3 repo
 `zypper --releasever=15.3 lr -u`
 
 ### Refresh repositories with 15.3 URI's
-`zypper --releasever=15.3`
+`zypper --releasever=15.3 ref`
 
 ### Perform Distribution Upgrade
 `zypper --releasever=15.3 dup`
