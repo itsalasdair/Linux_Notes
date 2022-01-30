@@ -1,5 +1,6 @@
 # Linux Permissions
 
+
 777 – anyone can read, write and execute the file\
 700 – owner can read, write and execute the file\
 666 – anyone can read and write the file\
