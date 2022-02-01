@@ -1,7 +1,7 @@
 # OES Cluster Commands
 
 
-## Check cluster status
+## Check Cluster status
 `cluster status`
 
 ## Online Cluster resource
