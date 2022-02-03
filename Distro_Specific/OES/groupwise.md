@@ -1,9 +1,9 @@
 # GroupWise OES Commands
 
-## GroupWise Resource Status
+## GroupWise resource Status
 `rcgroupwise status`
 
-## Start Resource
+## Start resources
 `rcgrpwise start`\
 (This will start all resources)
 
