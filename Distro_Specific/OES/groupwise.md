@@ -4,7 +4,7 @@
 `rcgroupwise status`
 
 ## Start Resource
-`rcgrpwise start`
+`rcgrpwise start`\
 (This will start all resources)
 
 ## Start single resource
