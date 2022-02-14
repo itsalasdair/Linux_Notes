@@ -36,3 +36,8 @@ The . builds the image in the current directory - this can be changed to your sp
 
 ### Enter Container with Bash
 `docker exec -it $containerName bash`
+
+### Search for Docker Image
+`docker search nginx:latest`
+
+
