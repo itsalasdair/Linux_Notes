@@ -12,3 +12,17 @@
 ### Check Running Docker Containers
 `docker ps -a`
 
+### Docker Build Image from Dockerfile
+`docker build -t $imageName .`\
+-t is Tag/name the image\
+The . builds the image in the current directory - this can be changed to your specified location
+
+### Docker Logs for Container
+`docker logs $containerID`
+
+### Tail Docker Logs for Container
+`docker logs --follow $containerID`
+
+## Tail x Number Log Lines for Container
+`docker logs --tail $number $containerID`
+
