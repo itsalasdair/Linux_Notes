@@ -6,8 +6,11 @@
 ### List Docker Images
 `docker images`
 
-### Run Docker Container Example
+### Run Docker Container Example 1
 `docker container run -itd --name web-server-nginx -p 8080:80 nginx:latest`
+
+### Run Docker Container Example 2
+`docker container run -itd --name my_container $imageName`
 
 ### Check Running Docker Containers
 `docker ps -a`
