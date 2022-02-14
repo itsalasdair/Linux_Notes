@@ -10,8 +10,8 @@
 `firewall-cmd --get-default-zone`
 
 ### Allow Service for Zone
-`firewall-cmd --zone={ZONE} --add-service=HTTP`
+`firewall-cmd --permanent --zone={ZONE} --add-service=HTTP`
 
 ### Allow Port for Zone
-`firewall-cmd --zone={ZONE} --add-port={PORT}/{tcp/udp}`
+`firewall-cmd --permanent --zone={ZONE} --add-port={PORT}/{tcp/udp}`
 
