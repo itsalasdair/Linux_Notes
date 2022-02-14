@@ -15,3 +15,5 @@
 ### Allow Port for Zone
 `firewall-cmd --permanent --zone={ZONE} --add-port={PORT}/{tcp/udp}`
 
+### Reload Firewall-cmd
+`firewall-cmd --reload`
