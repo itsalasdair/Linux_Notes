@@ -9,7 +9,7 @@ Check is Storage Management Serivces is running (this governs the TSA's):\
 `rcnovell-smdrd status`
 
 Check TSA's are loaded:\
-`smsconfig -T`
+`smsconfig -t`
 
 To unload:\
 `smsconfig -u $tsaname`
