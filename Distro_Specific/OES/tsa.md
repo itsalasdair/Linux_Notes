@@ -2,18 +2,18 @@
 
 Find node which resource is running on
 
-Check if eDir is running:
+Check if eDir is running:\
 `ndsrepair -T`
 
-Check is Storage Management Serivces is running (this governs the TSA's):
+Check is Storage Management Serivces is running (this governs the TSA's):\
 `rcnovell-smdrd status`
 
-Check TSA's are loaded:
+Check TSA's are loaded:\
 `smsconfig -T`
 
-To unload:
+To unload:\
 `smsconfig -u $tsaname`
 
-To load: 
+To load:\
 `smsconfig -l $tsaname`
 
