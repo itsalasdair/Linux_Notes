@@ -10,3 +10,5 @@
 ## Start single resource
 `rcgrpwise start $resource_name`
 
+## eDirectory Check
+`rcndsd status`
